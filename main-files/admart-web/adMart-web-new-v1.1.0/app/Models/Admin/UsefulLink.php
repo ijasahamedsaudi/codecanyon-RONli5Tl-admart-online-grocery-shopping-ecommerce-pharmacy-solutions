@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Models\Admin;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class UsefulLink extends Model
+{
+    use HasFactory;
+
+   protected $fillable = [
+    'name',
+    'unit',
+    'slug',
+    'status',
+    'type',
+    'title',
+    'url',
+    'content',
+    'editable',
+];
+    protected $casts = [
+        'id'           => 'integer',
+        'type'         => 'string',
+        'title'        => 'object',
+        'slug'         => 'string',
+        'url'          => 'string',
+        'content'      => 'object',
+        'status'       => 'integer',
+        'editable'     => 'integer',
+        'created_at'   => 'date:Y-m-d',
+        'updated_at'   => 'date:Y-m-d',
+    ];
+}

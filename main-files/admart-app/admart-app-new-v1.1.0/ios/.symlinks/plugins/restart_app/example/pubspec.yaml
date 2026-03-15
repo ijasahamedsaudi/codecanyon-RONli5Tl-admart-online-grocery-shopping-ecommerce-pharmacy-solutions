@@ -1,0 +1,28 @@
+name: restart_app_example
+description: Demonstrates how to use the restart plugin.
+
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  restart_app:
+    path: ../
+  url_strategy: ^0.3.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

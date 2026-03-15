@@ -1,0 +1,35 @@
+# Generic
+.DS_Store
+__MACOSX
+.idea/
+.vscode/
+*.swp
+*.log
+*.tmp
+*.bak
+
+# Laravel specific (admart-web)
+**/vendor/
+**/node_modules/
+**/.env
+**/.php-cs-fixer.cache
+**/public/storage
+**/storage/*.key
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/testing/*
+**/storage/framework/views/*
+**/storage/logs/*
+
+# Flutter specific (admart-app)
+**/.dart_tool/
+**/build/
+**/.pub-cache/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/android/local.properties
+**/android/key.properties
+**/android/app/src/main/res/values/strings.xml
