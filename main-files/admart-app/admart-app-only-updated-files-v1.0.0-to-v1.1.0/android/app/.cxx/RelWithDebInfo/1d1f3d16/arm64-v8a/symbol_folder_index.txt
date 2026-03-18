@@ -1,1 +1,0 @@
-/Users/appdevs/CC-ITEMS/admart-App/build/app/intermediates/cxx/RelWithDebInfo/1d1f3d16/obj/arm64-v8a
